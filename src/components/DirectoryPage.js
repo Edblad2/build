@@ -8,7 +8,7 @@ const DirectoryPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
-  const companies = [
+ const companies = [
     { id: 1, name: 'Constructora Solida', category: 'Obra Gris', description: 'Expertos en cimientos y estructuras robustas.', web: 'https://constructorasolida.com', whatsapp: '3001234567', email: 'info@solida.com' },
     { id: 2, name: 'Acabados Premium', category: 'Acabados', description: 'Diseño e instalación de acabados de lujo para interiores y exteriores.', web: 'https://acabadospremium.com', whatsapp: '3007654321', email: 'contacto@premium.com' },
     { id: 3, name: 'Materiales del Valle', category: 'Materiales', description: 'Distribución de materiales de construcción de alta calidad y durabilidad.', web: 'https://materialesdelvalle.com', whatsapp: '3009876543', email: 'ventas@valle.com' },
@@ -17,7 +17,8 @@ const DirectoryPage = () => {
     { id: 6, name: 'Plomería Express', category: 'Instalaciones', description: 'Soluciones rápidas y eficientes para problemas de plomería.', web: 'https://plomeriaexpress.com', whatsapp: '3007788990', email: 'info@plomeria.com' },
     { id: 7, name: 'Muebles a Medida', category: 'Acabados', description: 'Fabricación de mobiliario personalizado para proyectos de construcción.', web: 'https://mueblesamedida.com', whatsapp: '3001020304', email: 'contacto@muebles.com' },
     { id: 8, name: 'Alquiler de Maquinaria Pesada', category: 'Servicios Auxiliares', description: 'Renta de maquinaria para todo tipo de obras de construcción.', web: 'https://maquinariapesada.com', whatsapp: '3005060708', email: 'alquiler@maquinaria.com' },
-  ];
+    { id: 9, name: 'Edblad', category: 'Acabados', description: 'La mejor empresa en acabados.', web: 'https://edblad.glitch.me/', whatsapp: '+573016232176', email: 'edbladsas@gmail.com' }
+];
 
   const categories = ['Todas', 'Obra Gris', 'Acabados', 'Materiales', 'Diseño y Planificación', 'Instalaciones', 'Servicios Auxiliares'];
 
